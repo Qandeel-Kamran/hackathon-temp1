@@ -18,7 +18,7 @@ type ProductCardProps = {
   data: CartItem;
 };
 
-const ProductCard = ({ data }: ProductCardProps) => {
+const ProductCardpg = ({ data }: ProductCardProps) => {
   const dispatch = useAppDispatch();
 
   return (
@@ -137,4 +137,4 @@ const ProductCard = ({ data }: ProductCardProps) => {
   );
 };
 
-export default ProductCard;
+export default ProductCardpg;
